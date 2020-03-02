@@ -30,7 +30,6 @@ private func setupEvent() {
 
 class MainViewController: UIViewController {
     
-    @IBOutlet weak var textLabel: UILabel!
     @IBAction func gotoDetailButton(_ sender: Any) {
         ListRouter().push(from: self, entry: ListEntryEntity())
     }
